@@ -68,7 +68,7 @@ namespace KensingtonDryCleaners.iOS
 
 
 
-				Console.WriteLine(rk.ReturnObject);  
+				//Console.WriteLine(rk);  
 
 				//Console.WriteLine("Hello");
 

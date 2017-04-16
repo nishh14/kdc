@@ -38,9 +38,9 @@ namespace KensingtonDryCleaners.iOS
 			}
 		}
 
-		public ReturnObject getToken()
+		public BaseCallObject.ReturnObject getToken()
 		{
-			ReturnObject obj = new ReturnObject();
+			BaseCallObject.ReturnObject obj = new BaseCallObject.ReturnObject();
 			obj.CustomerID = Settings.CustomerID.ToString();
 			obj.CustomerName = Settings.CustomerName.ToString();
 			obj.CustomerStoreID = Settings.CustomerStoreID.ToString();
@@ -49,7 +49,7 @@ namespace KensingtonDryCleaners.iOS
 			return obj;
 		}
 
-		public void updateToken(ReturnObject returnObject)
+		public void updateToken(BaseCallObject.ReturnObject returnObject)
 		{
 			Settings.CustomerID = returnObject.CustomerID.ToString();
 			Settings.CustomerName = returnObject.CustomerName.ToString();

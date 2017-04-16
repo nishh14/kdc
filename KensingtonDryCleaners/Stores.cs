@@ -46,7 +46,7 @@ namespace KensingtonDryCleaners
 			public object MessageDetails { get; set; }
 			public object ValidationInfo { get; set; }
 			public StoreDetail StoreDetail { get; set; }	
-		s}
+		}
 
 		public class StoreDetail
 		{
